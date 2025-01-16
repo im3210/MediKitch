@@ -32,4 +32,7 @@ body{
     color: white;
     text-decoration: none;
 }
-1
+.navbar .logo img{
+    height: auto;
+    width: 100px;
+}
