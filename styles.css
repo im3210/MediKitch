@@ -12,12 +12,12 @@ body{
 }
 /*Navigation bar*/
 .navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#636B2F;
-  color: white;
-  padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#636B2F;
+    color: white;
+    padding: 20px;
 }
 .navbar ul{
     list-style: none;
