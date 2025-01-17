@@ -156,10 +156,18 @@ h2 {
     font-size: 3em;
 }
 .menu-container{
-    display:flex;
+    display: flex;
+    gap: 20px;
 }
+
 .container-row{
+    background-color: #edebeb;
+    border-radius: 15px;
 }
 .container-row img{
+    width: 100%;
     border-radius: 8px;
+}
+.container-row p{
+
 }
