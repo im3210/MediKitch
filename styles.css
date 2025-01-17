@@ -179,6 +179,7 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-weight: bold;
 }
 .order-button{
     background-color:#636B2F;
@@ -186,5 +187,4 @@ h2 {
     border-radius: 10px;
     padding: 15px;
     font-size: 20px;
-    border: 2px dashed blue;
 }
