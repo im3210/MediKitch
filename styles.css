@@ -9,6 +9,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+
 }
 /*Navigation bar*/
 .navbar{
@@ -24,6 +25,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 .navbar ul li{
     margin-left: 25px;
@@ -142,9 +144,10 @@ body{
 }
 
 #Home .overlay p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin: 0 0 20px;
 }
+
 /***************Menu***************/
 #Menu {
     background-color: white;
@@ -169,5 +172,19 @@ h2 {
     border-radius: 8px;
 }
 .container-row p{
-
+    display: flex;
+    font-size: 1.5em;
+}
+.dish-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.order-button{
+    background-color:#636B2F;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px dashed blue;
 }
