@@ -1,2 +1,0 @@
-# MediKitch
-Restaurant Website
