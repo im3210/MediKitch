@@ -136,79 +136,6 @@ h2 {
     gap: 20px;
     margin: 2rem;
 }
-#container-drop {
-    position: relative;
-    width: 300px;
-    margin: 20px auto;
-
-}
-
-#dropDown-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-#text-field {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-    width: 100%;
-}
-
-#suggestions-container {
-    display: none;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    max-height: 200px;
-    overflow-y: auto;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-#suggestions-container .suggestion {
-    padding: 10px;
-    cursor: pointer;
-}
-
-#suggestions-container .suggestion:hover {
-    background-color: #f0f0f0;
-}
-
-#suggestions-container .no-result {
-    padding: 10px;
-    color: #999;
-    text-align: center;
-}
-
-#reset-button {
-    top:5px;
-    bottom: 5px;
-    position: absolute;
-    right: 0;
-    padding: 18px;
-
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-#reset-button:hover {
-    background-color: gray;
-}
-
-#text-field:valid + #suggestions-container {
-    display: block;
-}
 
 .container-row {
     background-color: #edebeb;
@@ -318,4 +245,80 @@ h2 {
         gap: 10px;
     }
 }
-.
+
+
+/********dropDown*********/
+
+#container-drop {
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+
+
+}
+
+#dropDown-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+
+}
+
+#text-field {
+    padding: 35px;
+    border: 5px solid #636B2F;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+#suggestions-container {
+    display: none;
+    margin-top: 5px;
+    border: 5px solid #636B2F;
+    border-radius: 4px;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#suggestions-container .suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#suggestions-container .suggestion:hover {
+    background-color: #f0f0f0;
+}
+
+#suggestions-container .no-result {
+    padding: 10px;
+    color: #999;
+    text-align: center;
+}
+
+#reset-button {
+    top:5px;
+    bottom: 5px;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: gray;
+}
+
+#text-field:valid + #suggestions-container {
+    display: block;
+}
