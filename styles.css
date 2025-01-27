@@ -46,6 +46,7 @@ body {
 }
 
 .navbar .logo {
+    margin-top: 5px;
     flex-shrink: 0;
 }
 
@@ -183,6 +184,10 @@ h2 {
     gap: 10px;
 }
 
+.navbar .logo {
+    margin-right: 20px;
+}
+
 /* Responsive for tablets and smaller screens */
 @media (max-width: 768px) {
     .navbar {
@@ -206,7 +211,7 @@ h2 {
     }
     .hamburger {
         display: flex;
-        margin-left: auto;
+        margin-left: 20px;
     }
 
     .menu-toggle:checked + .hamburger + ul {
