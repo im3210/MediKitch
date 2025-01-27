@@ -4,7 +4,7 @@ const options = [
     "Tajine",
     "Fricassée",
     "Riz",
-    "chappti",
+    "chappati",
     "Makloub",
     "Baguette Farcie",
 
